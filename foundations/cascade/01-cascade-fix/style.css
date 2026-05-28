@@ -14,13 +14,17 @@ body {
 
 .small-para {
   font-size: 16px;
-  font-weight: 900;
 }
+
+/* Here I switched the placement of .para and .small-para since the last class specified takes precedence. 
+Also, removed duplicate font-weight specification. */
 
 #confirm-button {
   background: green;
   color: white;
 }
+
+/* Added id marker and put background & color definitions in there. Probably a bit bulky adding all of this. */
 
 .confirm {
   font-weight: bold;
@@ -43,3 +47,5 @@ body {
   font-weight: 800;
   font-size: 14px;
 }
+
+/* Switched the div selector to child, then got rid of it entirely since rule order was simpler.*/
