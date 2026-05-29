@@ -1,3 +1,8 @@
+* {
+  font-size: 16px;
+  padding: 8px;
+}
+
 body {
   background: #eee;
   font-family: sans-serif;
@@ -11,17 +16,25 @@ body {
 
 .title {
   background: #e3f4ff;
+  padding: 12px;
 }
 
 .content {
   background: #e3f4ff;
+  padding: 12px 8px;
+  margin-bottom: 10px;
 }
 
 .button-container {
   background: #e3f4ff;
+  text-align: center;
+  padding: 8px;
 }
 
 button {
   background: white;
   border: 1px solid #eee;
+  display: block;
+  margin: 0 auto;
+  padding: 10px 24px;
 }
