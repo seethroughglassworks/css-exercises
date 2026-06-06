@@ -26,6 +26,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  padding: 2px;
 }
 
 .left-links {
@@ -87,7 +88,8 @@ input {
 }
 
 .footer {
-  background-color: lightgray;
+  background-color: #eeeeee;
+  padding: 2px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
